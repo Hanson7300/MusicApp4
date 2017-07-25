@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <TextView
+            style="@style/TextStyle"
+            android:background="@color/red"
+            android:text="@string/playing"
+            android:id="@+id/playing"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:background="@color/pink"
+            android:text="@string/search"
+            android:id="@+id/search"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:background="@color/purple"
+            android:text="@string/radio"
+            android:id="@+id/radio"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <TextView
+            style="@style/TextStyle"
+            android:background="@color/yellow"
+            android:text="@string/songInfo"
+            android:id="@+id/songInfo"/>
+
+        <TextView
+            android:id="@+id/buy"
+            style="@style/TextStyle"
+            android:background="@color/violet"
+            android:text="@string/buy" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:background="@color/blue"
+            android:text="@string/rankingList"
+            android:id="@+id/rankList"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/myPlayList"
+            style="@style/TextStyle"
+            android:background="@color/lightYellow"
+            android:text="@string/playList" />
+
+        <TextView
+            android:id="@+id/featured"
+            style="@style/TextStyle"
+            android:background="@color/green"
+            android:text="@string/featured" />
+
+        <TextView
+            android:id="@+id/settings"
+            style="@style/TextStyle"
+            android:background="@color/darkBlue"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+
+</LinearLayout>

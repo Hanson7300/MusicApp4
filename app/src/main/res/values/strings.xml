@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="playing">Playing</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="radio">Radio</string>
+    <string name="songInfo">Song Info</string>
+    <string name="rankingList">Rank List</string>
+    <string name="buy">Buy</string>
+    <string name="playList">My PlayList</string>
+    <string name="featured">Featured</string>
+    <string name="title_activity_featured">FeaturedActivity</string>
+
+    <string name="describe_1">显示正在播放的音乐,点击歌曲进入歌曲信息</string>
+    <string name="describe_2">显示歌曲信息如歌手,专辑封面,可以进入播放列表</string>
+    <string name="describe_3">显示我创建的播放列表,点击进入正在播放</string>
+    <string name="describe_4">搜索歌曲,点击搜索结果开始播放</string>
+    <string name="describe_5">购买歌曲页面,点击显示歌曲信息,价格等</string>
+    <string name="describe_6">精选包含推荐了歌单,点击进入购买页面</string>
+    <string name="describe_7">电台页面可以选择喜欢的电台,点击播放</string>
+    <string name="describe_8">排行榜按一定顺序显示近期热门的音乐</string>
+    <string name="describe_9">设置页面可以检查更新,设置下载目录,选择下载音质等</string>
+
+
+</resources>
