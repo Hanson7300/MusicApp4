@@ -17,27 +17,37 @@
         </activity>
         <activity
             android:name=".PlayingActivity"
-            android:label="@string/playing" />
+            android:label="@string/playing"
+            android:launchMode="singleTask"/>
         <activity
             android:name=".SongInfoActivity"
-            android:label="@string/songInfo" />
+            android:label="@string/songInfo"
+            android:launchMode="singleTask"/>
         <activity
             android:name=".MyPlayListActivity"
-            android:label="@string/playList" />
+            android:label="@string/playList"
+            android:launchMode="singleTask"/>
         <activity
             android:name=".SearchActivity"
-            android:label="@string/search" />
+            android:label="@string/search"
+            android:launchMode="singleTask"/>
         <activity
             android:name=".BuyActivity"
-            android:label="@string/buy" />
+            android:label="@string/buy"
+            android:launchMode="singleTask"/>
         <activity android:name=".RadioActivity"
-            android:label="@string/radio"/>
+            android:label="@string/radio"
+            android:launchMode="singleTask"/>
         <activity android:name=".RankListActivity"
-            android:label="@string/rankingList"/>
+            android:label="@string/rankingList"
+            android:launchMode="singleTask"/>
         <activity android:name=".SettingsActivity"
-            android:label="@string/settings"/>
+            android:label="@string/settings"
+            android:launchMode="singleTask"/>
         <activity android:name=".FeaturedActivity"
-            android:label="@string/featured"></activity>
+            android:label="@string/featured"
+            android:launchMode="singleTask"
+            ></activity>
     </application>
 
 </manifest>

@@ -12,19 +12,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         TextView playing = (TextView) findViewById(R.id.playing);
-
-
         playing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent playingIntent = new Intent(MainActivity.this, PlayingActivity.class);
                 startActivity(playingIntent);
             }
         });
-
 
         TextView search = (TextView) findViewById(R.id.search);
         search.setOnClickListener(new View.OnClickListener() {
